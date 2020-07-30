@@ -1,5 +1,5 @@
 function suming(no1,no2){
-    return no1*no2;
+    return no1+no2;
 }
 //console.log(suming(2,3));
 document.getElementById("sum_numbers").innerHTML = " 2,3 ";
@@ -27,7 +27,11 @@ function average(array){
     //console.log(sum);
     //console.log(array.length);
     //console.log(avr);
+<<<<<<< HEAD
     return "Media aritmetica este:" + avr;
+=======
+    return "Media aritmetica este " + avr;
+>>>>>>> qa
 }
 var numbers = new Array(2,3,12,5,8);
 document.getElementById("average_numbers").innerHTML = numbers;
