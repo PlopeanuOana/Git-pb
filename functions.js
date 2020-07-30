@@ -1,5 +1,5 @@
 function suming(no1,no2){
-    return no1*no2;
+    return no1+no2;
 }
 //console.log(suming(2,3));
 document.getElementById("sum_numbers").innerHTML = " 2,3 ";
