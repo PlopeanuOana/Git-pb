@@ -27,11 +27,7 @@ function average(array){
     //console.log(sum);
     //console.log(array.length);
     //console.log(avr);
-<<<<<<< HEAD
     return "Media aritmetica este:" + avr;
-=======
-    return "Media aritmetica este " + avr;
->>>>>>> qa
 }
 var numbers = new Array(2,3,12,5,8);
 document.getElementById("average_numbers").innerHTML = numbers;
