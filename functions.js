@@ -27,8 +27,20 @@ function average(array){
     //console.log(sum);
     //console.log(array.length);
     //console.log(avr);
-    return avr;
+    return "Media aritmetica este:" + avr;
 }
 var numbers = new Array(2,3,12,5,8);
 document.getElementById("average_numbers").innerHTML = numbers;
 document.getElementById("average_function").innerHTML = average(numbers);
+
+function prodNo(array){
+    var prod = 1;
+    for(var i=0;i<array.length;i++){
+        prod *=array[i];
+    }
+    return prod;
+}
+
+document.getElementById("product_numbers").innerHTML = numbers;
+document.getElementById("product_function").innerHTML = prodNo(numbers);
+
